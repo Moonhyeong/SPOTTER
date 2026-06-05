@@ -1936,7 +1936,7 @@ def _on_start():
     # All values were already read at the moment Start was pressed
     # (lines above this block), so no race with later GUI changes.
     settings_rows = [
-        ("SPOTTER Version", "v2.0 (Multi-Cell Engine)"),
+        ("SPOTTER Version", "1.0 (Multi-Cell Engine)"),
         ("Run Timestamp", ts_now),
         ("Input Directory", str(dpg.get_value("val_input_path"))),
         ("Output Directory", str(output_path)),
@@ -2037,7 +2037,7 @@ def main():
         dpg.add_file_extension(".*", color=(200, 200, 200, 255))
 
     with dpg.window(tag="primary_window"):
-        dpg.add_text("SPOTTER v2.0 (Multi-Cell Engine)")
+        dpg.add_text("SPOTTER 1.0 (Multi-Cell Engine)")
         dpg.add_text("Advanced Multiprocessing Version by KIST")
         dpg.add_separator()
 

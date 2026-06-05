@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='SPOTTER_V2',
+    name='SPOTTER_V1',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

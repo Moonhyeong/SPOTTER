@@ -23,8 +23,8 @@ python spotter_main.py
 
 ## Build a standalone Windows executable
 ```bash
-pyinstaller SPOTTER_V2.spec --noconfirm
-# output: dist/SPOTTER_V2.exe
+pyinstaller SPOTTER_V1.spec --noconfirm
+# output: dist/SPOTTER_V1.exe
 ```
 
 ## Usage
