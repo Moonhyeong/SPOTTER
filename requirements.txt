@@ -1,0 +1,8 @@
+opencv-python
+numpy
+scikit-image
+scipy
+dearpygui
+pandas
+openpyxl
+loguru
