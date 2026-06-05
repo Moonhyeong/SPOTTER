@@ -1,6 +1,6 @@
 # SPOTTER
 
-**S**mart **P**rocessing for **O**ptical **T**racking and **E**nhancement **R**ecognition — a reproducible, high-throughput tool for automated fluorescence puncta quantification.
+**S**ubcellular **P**uncta **O**bserver & **T**ally **T**ool for **E**numeration in **R**esearch — a reproducible, high-throughput tool for automated fluorescence puncta quantification.
 
 SPOTTER is a Windows GUI application for automated detection and counting of fluorescence puncta (e.g., LC3, DFCP1 autophagy markers) in microscopy images. It standardizes color thresholding, marker-controlled watershed declumping, and size-based particle filtering, with CPU-parallel batch processing.
 
@@ -12,7 +12,7 @@ SPOTTER is a Windows GUI application for automated detection and counting of flu
 - **Batch processing** with an Excel (`.xlsx`) report (Results + Run_Settings sheets)
 
 ## Requirements
-- Python 3.11 (Windows)
+- Python 3.14 (Windows)
 - Dependencies: `opencv-python`, `numpy`, `scikit-image`, `scipy`, `dearpygui`, `pandas`, `openpyxl`, `loguru`
 
 ## Run from source
@@ -28,7 +28,7 @@ pyinstaller SPOTTER_V1.spec --noconfirm
 ```
 
 ## Usage
-A Korean user guide is provided as `SPOTTER_사용가이드.docx`. The pre-built executable is available under [Releases](../../releases).
+The user manual and the pre-built Windows executable (`SPOTTER_V1.exe`) are available under [Releases](../../releases).
 
 ## Citation
 If you use SPOTTER in your research, please cite:
