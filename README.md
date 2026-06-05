@@ -28,7 +28,7 @@ pyinstaller SPOTTER_V1.spec --noconfirm
 ```
 
 ## Usage
-The user manual and the pre-built Windows executable (`SPOTTER_V1.exe`) are available under [Releases](../../releases).
+See **[USER_MANUAL.md](USER_MANUAL.md)** for detailed instructions. The pre-built Windows executable (`SPOTTER_V1.exe`) is available under [Releases](../../releases).
 
 ## Citation
 If you use SPOTTER in your research, please cite:
